@@ -1,1 +1,0 @@
-# smartfit-challenge

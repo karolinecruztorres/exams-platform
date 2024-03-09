@@ -1,5 +1,5 @@
 {
-  "name": "smartfit-challenge",
+  "name": "exams-platform",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:smartfit-challenge": "node dist/smartfit-challenge/server/server.mjs"
+    "serve:ssr:exams-platform": "node dist/exams-platform/server/server.mjs"
   },
   "private": true,
   "dependencies": {

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "smartfit-challenge": {
+    "exams-platform": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/smartfit-challenge",
+            "outputPath": "dist/exams-platform",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "smartfit-challenge:build:production"
+              "buildTarget": "exams-platform:build:production"
             },
             "development": {
-              "buildTarget": "smartfit-challenge:build:development"
+              "buildTarget": "exams-platform:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "smartfit-challenge:build"
+            "buildTarget": "exams-platform:build"
           }
         },
         "test": {
