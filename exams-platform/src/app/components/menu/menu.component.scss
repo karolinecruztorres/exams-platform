@@ -1,0 +1,15 @@
+.app-menu {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 60rem;
+  background-color: rgb(254, 254, 254);
+  border: 2px solid rgb(220, 220, 220);
+}
+
+.menu-item {
+  list-style: none;
+  justify-content: space-around;
+  padding: 2rem;
+  font-size: 1.4rem;
+}

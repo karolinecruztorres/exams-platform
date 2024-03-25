@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'menu dash dash dash'
+    'menu dash dash dash'
+    'menu dash dash dash';
+  place-content: center;
+  margin-top: 13rem;
+}
+
+.app-header {
+  grid-area: header;
+}
+
+.app-menu {
+  grid-area: menu;
+}
+
+.app-dashboard {
+  grid-area: dash;
+}
