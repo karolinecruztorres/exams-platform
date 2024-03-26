@@ -5,8 +5,10 @@
     'menu dash dash dash'
     'menu dash dash dash'
     'menu dash dash dash';
-  place-content: center;
-  margin-top: 13rem;
+  width: max-content;
+  margin: 7rem auto;
+  background-color: rgb(254, 254, 254);
+  border-radius: 20px;
 }
 
 app-header {
