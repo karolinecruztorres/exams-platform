@@ -5,6 +5,7 @@ import { LogoComponent } from '../logo/logo.component';
 import { NotificationsComponent } from '../notifications/notifications.component';
 import { ProfileComponent } from '../profile/profile.component';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -15,6 +16,7 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
     NotificationsComponent,
     ProfileComponent,
     CalendarComponent,
+    RouterLink
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',

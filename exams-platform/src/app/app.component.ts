@@ -11,8 +11,6 @@ import { ContainerWrapperComponent } from './container/container-wrapper/contain
     ContainerWrapperComponent,
     MatToolbarModule,
     RouterOutlet,
-    RouterLink,
-    RouterLinkActive,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
